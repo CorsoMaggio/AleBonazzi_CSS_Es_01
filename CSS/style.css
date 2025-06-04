@@ -2,4 +2,83 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 1rem;
+}
+
+nav ul.navbar li {
+    color: white;
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+
+
+nav ul.navbar li a {
+    color: white;
+    font size: 1rem;
+    text-decoration: none;
+
+}
+
+.titolo_principale {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sottotitolo {
+    text-align: center;
+    color: #666;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(255, 249, 245);
+    border-radius: 15px;
+    height: 430px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2)
+}
+
+
+.card img {
+    width: 60%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+.btn {
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.txt-wrapper {
+    text-align: center;
+    vertical-align: middle;
+
 }
